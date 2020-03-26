@@ -1,0 +1,98 @@
+export const planets = [
+	{
+		id: 0,
+		nome: "Mercúrio",
+		distancia: "57.910.000 km",
+		diametro: "4 879 km",
+		satelites: 0,
+		periodo_orbita: "88 dias",
+		duracao_dia: "58 dias",
+		temperatura: "-173 a 427 ° C",
+		icon: "003-mercury.svg",
+		type: "terrestre"
+	},
+	{
+		id: 1,
+		nome: "Vênus",
+		distancia: "108.200.000 km",
+		diametro: "12 104 km",
+		satelites: 0,
+		periodo_orbita: "225 dias",
+		duracao_dia: "116 dias",
+		temperatura: "462° C",
+		icon: "002-venus.svg",
+		type: "terrestre"
+	},
+	{
+		id: 2,
+		nome: "Terra",
+		distancia: "149.600.000 km",
+		diametro: "12 742 km",
+		satelites: "1; Lua",
+		periodo_orbita: "365 dias",
+		duracao_dia: "24h",
+		temperatura: "-93.2 a 57.8° C",
+		icon: "008-planet-earth.svg",
+		type: "terrestre"
+	},
+	{
+		id: 3,
+		nome: "Marte",
+		distancia: "227.900.000 km",
+		diametro: "6 779 km",
+		satelites: "2; Fobos",
+		periodo_orbita: "1 ano e 3 meses",
+		duracao_dia: "1d 37m",
+		temperatura: "-87 a -5 °C",
+		icon: "005-mars.svg",
+		type: "terrestre"
+	},
+	{
+		id: 4,
+		nome: "Júpiter",
+		distancia: "778.500.000 km",
+		diametro: "139 822 km",
+		satelites: "79; Europa",
+		periodo_orbita: "11 anos",
+		duracao_dia: "9h 56m",
+		temperatura: "-108° C",
+		icon: "007-jupiter.svg",
+		type: "gasoso"
+	},
+	{
+		id: 5,
+		nome: "Saturno",
+		distancia: "1.429.400.000 km",
+		diametro: "120 536 km",
+		satelites: "82; Titã",
+		periodo_orbita: "29 anos",
+		duracao_dia: "10h 34m",
+		temperatura: "-139° C",
+		icon: "006-saturn.svg",
+		type: "gasoso"
+	},
+	{
+		id: 6,
+		nome: "Urano",
+		distancia: "2.871.000.000 km",
+		diametro: "51 118 km",
+		satelites: "27; Oberon",
+		periodo_orbita: "84 anos",
+		duracao_dia: "17h 14m",
+		temperatura: "-220° C",
+		icon: "004-uranus.svg",
+		type: "gasoso"
+	},
+	{
+		id: 7,
+		nome: "Netuno",
+		distancia: "4.495.000.000 km",
+		diametro: "49 244 km",
+		satelites: "14; Tritão",
+		periodo_orbita: "165 anos",
+		duracao_dia: "16h 6m",
+		temperatura: "−201° C",
+		icon: "001-neptune.svg",
+		type: "gasoso"
+	},
+]

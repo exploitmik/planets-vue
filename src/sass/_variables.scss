@@ -1,0 +1,25 @@
+:root {
+
+	--color-primary: orange;
+	--color-secondary: orangered;
+	--text-color1: #313131;
+	--text-color2: #616161;
+	--text-color3: rgba(255,255,255,.9);
+
+	--scale: 1.418;
+	--font-xs: .8rem;
+  --font-sm: 1rem;
+  --font-md: calc(var(--font-sm) * var(--scale));
+  --font-lg: calc(var(--font-md) * var(--scale));
+  --font-xl: calc(var(--font-lg) * var(--scale));
+  --font-xlg: calc(var(--font-xl) * var(--scale));
+  
+	--font-primary: 'IBM Plex Mono', monospace;
+	--font-secondary: '';
+
+	--box-shadow: 0 11px 15px rgba(0,0,0,.07);
+	--box-shadow-hover: 0 11px 25px rgba(0,0,0,.2);
+	--border-radius: 1em;
+	--btn-border-radius: 2em;
+
+}
