@@ -1,5 +1,7 @@
 # planets-vue
 
+Deploy: https://planets-vue.now.sh/
+
 ## Project setup
 ```
 yarn install
